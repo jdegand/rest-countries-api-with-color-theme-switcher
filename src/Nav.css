@@ -1,0 +1,38 @@
+.nav {
+  padding: 50px 5px;
+}
+
+.world {
+  font-weight: 800;
+  font-size: 20px;
+}
+
+.nav-ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+.icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.i {
+  padding-right: 10px;
+}
+
+body.dark .world {
+  color: white;
+}
+
+
+@media (min-width: 1000px){
+  .world {
+    font-size: 28px;
+  }
+
+  .nav {
+    padding: 50px;
+  }
+}
