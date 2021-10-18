@@ -7,7 +7,6 @@ This is a solution to the [REST Countries API with color theme switcher challeng
 - [Overview](#overview)
   - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
-  - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
@@ -42,10 +41,6 @@ Users should be able to:
 
 ![](./rest-api-mobile-light-country-view.png)
 
-### Links
-
-- Live Site URL: [Github Pages](https://jdegand.github.io/rest-countries-api-with-color-theme-switcher)
-
 ## My process
 
 ### Built with
@@ -67,6 +62,7 @@ Users should be able to:
 - Used matching object to get full names of border - if error - hard to find 
 - Margin/Padding issues noticeable on dark mode
 - Accessibility
+- API changed and now requires an api key.  I deleted my gh-pages branch and removed the link.  
 
 ### Useful resources
 
