@@ -59,9 +59,11 @@ Users should be able to:
 - Margin/Padding issues noticeable on dark mode
 - Accessibility
 - API changed and now requires an api key.  I deleted my gh-pages branch and removed the link.  
+- Apparently, the original restcountries api has been cloned and is active again.  I may try and get this working again.   
 
 ### Useful resources
 
 - [Dev.to](https://dev.to/zenulabidin/how-not-to-deploy-a-react-site-to-github-pages-42ge) - Github Pages and React
 - [Medium](https://medium.com/@bennirus/deploying-a-create-react-app-with-routing-to-github-pages-f386b6ce84c2) - Github Pages and React
 - [React](https://reactjs.org/docs/hooks-effect.html) - Hooks Effect
+- [Github](https://github.com/apilayer/restcountries/issues/253) - restcountries original api renamed and requires an api key
