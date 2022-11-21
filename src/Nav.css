@@ -26,8 +26,11 @@ body.dark .world {
   color: white;
 }
 
+.pointer {
+  cursor: pointer;
+}
 
-@media (min-width: 1000px){
+@media (min-width: 1000px) {
   .world {
     font-size: 28px;
   }

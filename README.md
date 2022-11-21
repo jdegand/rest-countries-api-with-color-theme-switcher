@@ -39,6 +39,8 @@ Users should be able to:
 
 ![](./rest-api-mobile-light-country-view.png)
 
+![](rest-countries-white-flags.png "Added border to light mode")
+
 ## My process
 
 ### Built with
@@ -49,6 +51,7 @@ Users should be able to:
 - CSS Grid
 - [React](https://reactjs.org)
 - [Create React App](https://github.com/facebook/create-react-app)
+- [Rest Countries API](https://restcountries.com/)
 
 ### Continued development
 
@@ -59,7 +62,10 @@ Users should be able to:
 - Margin/Padding issues noticeable on dark mode
 - Accessibility
 - API changed and now requires an api key.  I deleted my gh-pages branch and removed the link.  
-- Apparently, the original restcountries api has been cloned and is active again.  I may try and get this working again.   
+- The original restcountries api has been cloned and is active again.   The name, currency, and languages properties have changed.       
+- NumericCode was removed - used it for key value - could add nanoid - used population and name as quick replacement
+- Could look into updating packages ie React 18 
+- Issue when a flag is mainly white (Pakistan) on light mode where a border would help.  Need border conditionally.  
 
 ### Useful resources
 
@@ -67,3 +73,5 @@ Users should be able to:
 - [Medium](https://medium.com/@bennirus/deploying-a-create-react-app-with-routing-to-github-pages-f386b6ce84c2) - Github Pages and React
 - [React](https://reactjs.org/docs/hooks-effect.html) - Hooks Effect
 - [Github](https://github.com/apilayer/restcountries/issues/253) - restcountries original api renamed and requires an api key
+- [Stack Overflow](https://stackoverflow.com/questions/45100477/how-to-render-a-object-in-react)
+- [Stack Overflow](https://stackoverflow.com/questions/40950546/react-js-right-way-to-iterate-over-object-instead-of-object-entries)

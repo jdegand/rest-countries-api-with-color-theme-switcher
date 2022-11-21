@@ -23,6 +23,10 @@ select {
   font-family: inherit;
 }
 
+select {
+  cursor: pointer;
+}
+
 ul {
   list-style-type: none;
 }
