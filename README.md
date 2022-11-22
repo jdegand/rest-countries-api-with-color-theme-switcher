@@ -7,6 +7,7 @@ This is a solution to the [REST Countries API with color theme switcher challeng
 - [Overview](#overview)
   - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
+  - [Link](#link)
 - [My process](#my-process)
   - [Built with](#built-with)
   - [Continued development](#continued-development)
@@ -40,6 +41,10 @@ Users should be able to:
 ![](./rest-api-mobile-light-country-view.png)
 
 ![](rest-countries-white-flags.png "Added border to light mode")
+
+### Link 
+
+![Github Pages](https://jdegand.github.io/rest-countries-api-with-color-theme-switcher)
 
 ## My process
 
