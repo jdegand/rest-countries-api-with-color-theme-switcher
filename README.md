@@ -44,7 +44,7 @@ Users should be able to:
 
 ### Link 
 
-![Github Pages](https://jdegand.github.io/rest-countries-api-with-color-theme-switcher)
+- [Github Pages](https://jdegand.github.io/rest-countries-api-with-color-theme-switcher)
 
 ## My process
 
