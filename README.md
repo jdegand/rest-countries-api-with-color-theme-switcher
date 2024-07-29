@@ -28,19 +28,19 @@ Users should be able to:
 
 ### Screenshot
 
-![](./rest-api-desktop-light.png)
+![Desktop Light](./rest-api-desktop-light.png)
 
-![](./rest-api-desktop-dark.png)
+![Desktop Dark](./rest-api-desktop-dark.png)
 
-![](./rest-api-desktop-dark-country-view.png)
+![Country View Dark](./rest-api-desktop-dark-country-view.png)
 
-![](./rest-api-mobile-light.png)
+![Mobile Light](./rest-api-mobile-light.png)
 
-![](./rest-api-mobile-dark-country-view.png)
+![Mobile Country View Dark](./rest-api-mobile-dark-country-view.png)
 
-![](./rest-api-mobile-light-country-view.png)
+![Mobile Country View Light](./rest-api-mobile-light-country-view.png)
 
-![](rest-countries-white-flags.png "Added border to light mode")
+![White Flags have added borders](rest-countries-white-flags.png "Added border to light mode")
 
 ### Link 
 
@@ -69,7 +69,7 @@ Users should be able to:
 - API changed and now requires an api key.  I deleted my gh-pages branch and removed the link.  
 - The original restcountries api has been cloned and is active again.   The name, currency, and languages properties have changed.       
 - NumericCode was removed - used it for key value - could add nanoid - used population and name as quick replacement
-- Could look into updating packages ie React 18 
+- Could look into updating packages i.e. React 18 
 - Issue when a flag is mainly white (Pakistan) on light mode where a border would help.  Need border conditionally.  
 
 ### Useful resources
@@ -78,5 +78,5 @@ Users should be able to:
 - [Medium](https://medium.com/@bennirus/deploying-a-create-react-app-with-routing-to-github-pages-f386b6ce84c2) - Github Pages and React
 - [React](https://reactjs.org/docs/hooks-effect.html) - Hooks Effect
 - [Github](https://github.com/apilayer/restcountries/issues/253) - restcountries original api renamed and requires an api key
-- [Stack Overflow](https://stackoverflow.com/questions/45100477/how-to-render-a-object-in-react)
-- [Stack Overflow](https://stackoverflow.com/questions/40950546/react-js-right-way-to-iterate-over-object-instead-of-object-entries)
+- [Stack Overflow](https://stackoverflow.com/questions/45100477/how-to-render-a-object-in-react) - how to render a object in react
+- [Stack Overflow](https://stackoverflow.com/questions/40950546/react-js-right-way-to-iterate-over-object-instead-of-object-entries) - react js right way to iterate over object instead of object entries

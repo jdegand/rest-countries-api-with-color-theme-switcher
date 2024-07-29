@@ -29,33 +29,31 @@ function SubHeader() {
   };
 
   return (
-    <>
-      <form id="form">
-        <div>
-          <i className="fas fa-search"></i>
-          <input
-            type="search"
-            name="search"
-            placeholder="Search for a country..."
-            onChange={handleInputChange}
-          />
-        </div>
-        <div>
-          <select
-            name="select"
-            className="select"
-            onChange={handleSelectChange}
-          >
-            <option value="Filter by region">Filter by Region</option>
-            <option value="africa">Africa</option>
-            <option value="americas">Americas</option>
-            <option value="asia">Asia</option>
-            <option value="europe">Europe</option>
-            <option value="oceania">Oceania</option>
-          </select>
-        </div>
-      </form>
-    </>
+    <form id="form">
+      <div>
+        <i className="fas fa-search"></i>
+        <input
+          type="search"
+          name="search"
+          placeholder="Search for a country..."
+          onChange={handleInputChange}
+        />
+      </div>
+      <div>
+        <select
+          name="select"
+          className="select"
+          onChange={handleSelectChange}
+        >
+          <option value="Filter by region">Filter by Region</option>
+          <option value="africa">Africa</option>
+          <option value="americas">Americas</option>
+          <option value="asia">Asia</option>
+          <option value="europe">Europe</option>
+          <option value="oceania">Oceania</option>
+        </select>
+      </div>
+    </form>
   );
 }
 
